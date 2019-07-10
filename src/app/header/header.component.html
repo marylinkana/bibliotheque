@@ -10,7 +10,7 @@
         <a routerLink="auth/signup">Créer un compte</a>
       </li>
       <li routerLinkActive="active" *ngIf="!isAuth">
-        <a routerLink="auth/signin">Connexion</a>
+        <a routerLink="/auth/signin">Connexion</a>
       </li>
       <li>
         <a (click)="onSignOut()"
