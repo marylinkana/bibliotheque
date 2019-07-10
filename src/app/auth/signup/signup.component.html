@@ -20,6 +20,9 @@
               type="submit"
               [disabled]="signupForm.invalid">Créer mon compte</button>
     </form>
+    <li routerLinkActive="active">
+      <a routerLink="/auth/signin">Déjà inscrit ?</a>
+    </li>
     <p class="text-danger">{{ errorMessage }}</p>
   </div>
 </div>
