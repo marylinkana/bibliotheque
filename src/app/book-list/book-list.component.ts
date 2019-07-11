@@ -22,6 +22,7 @@ booksSubscription: Subscription;
          this.books = books;
        }
     );
+    this.booksService.getBooks();
     this.booksService.emitBooks();
   }
 
